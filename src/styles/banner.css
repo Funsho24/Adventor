@@ -1,0 +1,103 @@
+.banner{
+    background-image: url('../assets/Rectangle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+}
+.links{
+ display: none;
+}
+.links ul{
+    display: flex;
+    gap: 5px;
+}
+.links ul a {
+    font-size: 18px;
+    font-family: var(--jost);
+    font-weight: 500;
+    color: var(--secondary);
+}
+.navbtn{
+    width: 120px;
+    height: 36px;
+    background-color: var(--action);
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    color: var(--secondary);
+
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    text-align: center;
+}
+.inner div{
+    width: 90%;
+}
+.inner h2{
+    font-family: var(--mansalva);
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--secondary);
+}
+.inner h1{
+    font-family: var(--palanquin);
+    font-weight: 700;
+    color: var(--secondary);
+}
+.inner p{
+    color: var(--secondary);
+    font-size: 18px;
+}
+.inner button{
+    display: block;
+    margin: 10px auto;
+    width: 192px;
+    height: 38px;
+    background-color: var(--action);
+    color: var(--secondary);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: var(--jost);
+    font-weight: 500;
+}
+
+@media (min-width:768px){
+    nav{
+        padding: 12px 20px;
+    }
+    .links{
+       display: block;
+    }
+    .links ul{
+        gap: 15px;
+        align-items: center;
+    }
+    .inner div{
+        width: 700px;
+        height: 311px;
+    }
+   
+}
+
+@media(min-width:1000px){
+.inner div{
+    width: 874px;
+}
+ .inner h1 {
+     font-size: 85px;
+ }
+}

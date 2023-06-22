@@ -1,0 +1,58 @@
+.adventure-card{
+    width: 90%;
+    margin: 10px auto;
+}
+.maincard{
+    margin-top: 10px;
+    width: 285px;
+}
+.photo{
+    width: 282px;
+    height: 252px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.title-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+}
+.title-icons h5{
+    color: var(--primary);
+    font-weight: 500;
+    font-family: var(--palanquin);
+    font-size: 20px;
+}
+.adventure-text{
+    font-family: var(--jost);
+    font-size: 20px;
+    color: var(--grey);
+    line-height: 30px;
+    font-weight: 400;
+}
+.adventure-text button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-family: var(--jost);
+    font-weight: 400;
+    color: #EF4129;
+    text-transform: capitalize;
+}
+.notbtn{
+    width: 282px;
+    height: 38px;
+    background-color: var(--action);
+    font-family: var(--jost);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primary);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
