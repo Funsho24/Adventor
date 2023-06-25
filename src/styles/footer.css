@@ -1,0 +1,226 @@
+.foot{
+    background-color: #0E2911;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.aboutt{
+    width: 230px;
+    height: 280px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.aboutt h3{
+    font-family: var(--palanquin);
+    font-weight: 700;
+    color: #FFFFFF;;
+}
+
+.aboutt p{
+    font-family: var(--jost);
+    font-weight: 200;
+    color: #FFFFFF;
+}
+
+.menu{
+    display: flex;
+    /* flex-direction: column; */
+align-items: center;
+/* justify-content: center; */
+}
+
+.menu .home{
+    margin-left: 30px;
+}
+.home h4{
+    margin-bottom: 10px;
+    font-family: var(--palanquin);
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.menu .home ul li{
+    font-family: var(--jost);
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.menu .sign{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.menu .sign ul li{
+    font-family: var(--jost);
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.subscribee{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+}
+.newsletter{
+    margin-right: 50px;
+}
+
+.newsletter h4{
+font-family: var(--palanquin);
+font-weight: 700;
+color: #FFFFFF;
+}
+.subscribee .mail input{
+    width: 200px;
+    height: 39px;
+    display: block;
+    margin-left: 40px;
+
+    outline: none;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+.btnsub{
+    display: block;
+    margin-left: 50px;
+    margin-top: 5px;
+    background-color:#EFAB29;;
+    color: white;
+    width: 103px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+}
+.terms{
+    margin-top: 20px;
+}
+.policy{
+margin-left: 70px;
+margin-top: 20px;
+}
+
+.policy h5{
+    font-family: var(--palanquin);
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.icon{
+    margin-left: 80px;
+    margin-top: 15px;
+}
+.icon .a img{
+    display: inline-block;
+    margin-right: 20px;
+}
+.icon .b img{
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon .c img{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media(min-width:425px){
+ .aboutt{
+    margin-left: 50px;
+ } 
+ .menu{
+    margin-left: 40px;
+ }
+ .newsletter{
+    margin-right: 70px;
+ }
+ .mail{
+    margin-left: 30px;
+ }  
+ .policy{
+    margin-left: 90px;
+ }
+ .icon{
+    margin-left: 90px;
+ }
+}
+
+@media(min-width:768px){
+ .aboutt{
+    position: relative;
+    left: 150px;
+ }   
+ .menu{
+    position: relative;
+        left: 150px;
+ }
+ .newsletter{
+    position: relative;
+    right: 30px;
+ }
+ .mail{
+        position: relative;
+            left: 150px;
+ }
+ .icon{
+        position: relative;
+            left: 170px;
+ }
+ .policy{
+        position: relative;
+            left: 170px;
+ }
+}
+@media(min-width:1024px){
+  .foot{
+    display: flex;
+  }  
+  .aboutt{
+    margin-left: -110px;
+  }
+  .menu{
+    margin-left: -10px;
+    position: relative;
+    bottom: 65px;
+  }
+  .newsletter{
+    position: relative;
+    left: 150px;
+    bottom: 5px;
+  }
+  .mail input{
+    display: inline-block;
+ position: relative;
+ right: 50px;
+ 
+}
+.terms{
+    position: relative;
+    top: 200px;
+    right: 300px;
+
+}
+}
+@media(min-width:1440px){
+ .menu{
+    position: relative;
+    margin-left: 50px;
+ }   
+ .subscribee{
+    position: relative;
+    left: 70px;
+ }
+ .subscribee .mail input{
+    width: 337px;
+    height: 39px;
+ }
+ .btnsub{
+    position: relative;
+    left: 160px;
+    bottom: 37px;
+ }
+ .terms .policy{
+    position: relative;
+    top: 30px;
+ }
+.terms .icon{
+    margin-left: 250px;
+}
+}
