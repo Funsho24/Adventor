@@ -3,6 +3,7 @@
     margin: 10px auto;
 }
 .maincard{
+    margin: auto;
     margin-top: 10px;
     width: 285px;
 }
@@ -55,4 +56,20 @@
     display: block;
     margin: auto;
     margin-top: 20px;
+}
+
+@media(min-width:768px){
+    .adventure-card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media(min-width:1440px){
+    .adventure-card{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        grid-gap: 10px;
+    }
 }

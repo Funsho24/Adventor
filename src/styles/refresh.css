@@ -1,0 +1,21 @@
+.no-adventure{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.no-adventure h2{
+    font-family: var(--palanquin);
+    font-weight: 400;
+    color: var(--primary);
+}
+
+.no-adventure p{
+    font-family: var(--jost);
+    font-weight: 400;
+    margin: 5px auto;
+    font-size: 22px;
+    color: var(--grey);
+    line-height: 32px;
+}
